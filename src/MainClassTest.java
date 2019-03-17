@@ -15,4 +15,10 @@ public class MainClassTest extends MainClass
     {
         Assert.assertTrue(getClassNumber() + " is not bigger than 45!",getClassNumber() > 45);
     }
+
+    @Test
+    public void testGetClassString()
+    {
+        Assert.assertTrue(getClassString() + " string does not contain Hello or hello!", getClassString().contains("Hello") || getClassString().contains("hello"));
+    }
 }
