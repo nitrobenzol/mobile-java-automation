@@ -1,4 +1,4 @@
-public class MainClass<class_string>
+public class MainClass
 {
     private int class_number = 20;
 
